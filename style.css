@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     margin: 0;
-    color:aqua
+    color:rgb(164, 35, 224)
   }
 
   .planet-name {
@@ -12,19 +12,27 @@ body {
     align-items: center;
   }
   
-  .search-planet {
-    font-weight: 200;
-    color: black;
-  }
-
-  .planet-desc {
+p {
     font-style: italic;
-    font-size: 16px;
+    font-size: 20px;
+    color: rgb(182, 23, 134);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin-left: 5cm;
     margin-right: 5cm;
+}
+
+  .planet-desc {
+
+    font-family: sans-serif; 
+    color: beige;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    margin-left: 10cm;
+    margin-right: 10cm;
   }
 
   .planet-orbitalPeriod {
@@ -115,6 +123,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
   }
   
   .planet {
@@ -149,12 +158,59 @@ body {
     margin: 0 10px;
   }
   
+  .planet.jorden {
+    background-color: rgb(47, 118, 224);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+  }
+
+  .planet.merkurius {
+    background-color: rgb(47, 224, 121);
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin: 0 10px;
+  }
+
+  .planet.saturnus {
+    background-color: rgb(147, 224, 47);
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: 0 10px;
+  }
+
+  .planet.uranus {
+    background-color: rgb(127, 140, 196);
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    margin: 0 10px;
+  }
+
+  .planet.neptunus {
+    background-color: rgb(94, 44, 89);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+  }
+
+
   .planet.solen {
     background-color: yellow;
     height: 80vh;
     width: 10vw;
     border-radius: 0 100% 100% 0/0 50% 50% 0;
   }
+
+  #search-planet {
+    padding-top: 10px;
+  }
+
+
   
   
   .planet-overlay {
