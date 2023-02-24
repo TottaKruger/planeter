@@ -3,6 +3,45 @@ body {
     margin: 0;
     color:aqua
   }
+
+  .planet-name {
+    font-style: italic;
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .planet-desc {
+    font-style: italic;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5cm;
+    margin-right: 5cm;
+  }
+
+  .planet-orbitalPeriod {
+    font-style: italic;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5cm;
+    margin-right: 5cm;
+  }
+
+  .planet-moons {
+    font-style: italic;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 5cm;
+    margin-right: 5cm;
+  }
+
   
   #planet-container {
     width: 100vw;

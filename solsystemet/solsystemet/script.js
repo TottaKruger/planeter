@@ -35,10 +35,15 @@ function openPlanetOverlay(planet) {
     currentPlanetIndex = planetsArray.indexOf(planet);
     console.log('index of planet in list: ', currentPlanetIndex);
     document.querySelector('.planet-name').innerHTML = planet.name;
+    document.querySelector('.planet-desc').innerHTML = planet.desc;
+    document.querySelector('.planet-orbitalPeriod').innerHTML = planet.orbitalPeriod;
+    document.querySelector('.planet-moons').innerHTML = planet.moons;
     planetOverlay.style.display = 'block';
 };
 
-// prev dog btn event listener
+
+
+
 prevPlanetBtn.addEventListener('click', () => {
     openPlanetOverlay(planetsArray[currentPlanetIndex - 1]);
 });
